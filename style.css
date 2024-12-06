@@ -1,0 +1,239 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.bg{
+    position: relative;
+    /* height: 150vh; */
+    background-image:linear-gradient(rgb(251, 251, 251),rgb(189, 189, 220));
+}
+.header{
+    padding: 20px;
+    font-size: 22px;
+    color: black;
+}
+.header1{
+    padding: 20px;
+    font-size: 22px;
+    color:black;
+}
+.header:hover{
+    font-size:30px;
+    color: red;
+}
+.header1:hover{
+    font-size: 30px;
+    color:black;
+}
+.logo{
+    height: 90px;
+    width:150px;
+}
+.logo:hover{
+    scale: 1.1;
+}
+.home-bg{
+    position: absolute;
+    top: -150px;
+    left: 450px;
+
+}
+.home-img{
+    /* height: 500px; */
+    width: 300px;
+    margin-top:44%;
+    margin-left: -40%;
+    transform: rotate(0deg);
+}
+.home-img1{
+    position: absolute;
+    /* height: 500px; */
+    width: 300px;
+    top: 240px;
+    left: 110px;
+    z-index: 1;
+   
+}
+@media only screen and (max-width:992px){
+    .home-img{
+        height: 00px;
+        width: 00px;
+    }
+    .home-img1{
+        top: -90px;
+        left: 0px;
+    }
+    
+}
+.home-new{
+    padding:15%;
+}
+.home-head1{
+    font-size: 70px;
+    font-family: roboto ;
+    position: relative;
+    animation-name: bounce;
+    animation-duration: 2s;
+    animation-play-state: running;
+}
+.home-head1:hover{
+    scale: 1.1;
+    color: rgb(13, 111, 114);
+}
+@keyframes bounce {
+    from{
+        transform: translate3d(499px,0px,0px);
+        scale:(-0.2);
+    }
+    to{
+        transform: translate3d(0px,0px,0px);
+        scale: (2.7);
+    }
+    
+}
+.home-head{
+    font-size: 70px;
+    font-family: roboto ;
+    /* position: relative;
+    animation-name: flip;
+    animation-duration: 5s;
+    animation-play-state: running; */
+}
+@keyframes flip {
+    from
+    {
+    transform: scale(-1,1);
+    color: #000800;
+    -moz-transform: scale(-1,1);
+    -webkit-transform: scale(-1,1);
+    -o-transform: scale(-1,1);
+    -ms-transform: scale(-1,1);
+    transform: scale(-1,1);
+}
+to{
+    transform: scale(1,1);
+}
+}
+.home-para{
+    font-size: 20px;
+}
+/* categories */
+.categories-img{
+    height: 400px;
+    width: 300px;
+    position: relative;
+    animation-name: flip;
+    animation-duration: 2s;
+    animation-play-state: running;
+}
+.categories-row1{
+    text-align: center;
+    padding-left: 35px;
+    h6{
+        font-size: 30px;
+    }
+    p{
+        font-size: 20px;
+    }
+}
+.categories-row1:hover{
+    scale: 1.05;
+    color:darkblue;
+}
+.categories-arrow{
+    margin: 30px;
+    padding-left: 70px;
+    font-size: 30px;
+}
+/* .animation{
+    position: relative;
+    animation-name: flip;
+    animation-duration: 5s;
+    animation-play-state: running;
+} */
+/* collection */
+.collection-img{
+    height:500px;
+    width: 377px;
+    margin: 20px;
+    position: relative;
+    animation-name: flip;
+    animation-duration: 2s;
+    animation-play-state: running;
+}
+.collection-img:hover{
+    scale: 1.05;
+    border: solid black;
+}
+.collection-img2:hover{
+    scale: 1.05;
+    border: solid black;
+}
+.collection-img2{
+    height:500px;
+    width: 377px; 
+    margin-top: -80%;
+    position: relative;
+    animation-name: flip;
+    animation-duration:2s;
+    animation-fill-mode: inherit; 
+}    
+@media only screen and (max-width:992px) {
+    .collection-img2{
+        height:500px;
+        width: 377px;
+       margin-top: 0%;
+       margin: 10px;
+    }
+  }
+.collection-head{
+    font-size: 50px;
+    text-align: right;
+    font-family: cursive;
+}
+.collection-para{
+    font-size: 22px;
+    text-align: right;
+}
+/* product */
+.product-img{
+    height: 350px;
+    width: 250px;
+}
+.product-img:hover{
+    scale: 1.05;
+}
+/* brand */
+.brand-img{
+    height: 250px;
+    width: 250px;
+}
+.brand-img:hover{
+    scale: 1.05;
+}
+/* contact-us */
+.contact-icon{
+    font-size:30px;
+    padding: 10px;
+    color: #000800;
+}
+.contact-icon:hover{
+    color: rgb(139, 0, 109);
+    font-size:35px;
+}
+.contact-para{
+    padding: 15px;
+    font-size:18px;
+    color: #292a29;
+}
+.contact-para:hover{
+    color: rgb(150, 15, 145);
+}
+#contact-us{
+    padding-top: 100px;
+    h1:hover{
+      scale: 1.06;
+      color: darkblue;  
+    }
+}
